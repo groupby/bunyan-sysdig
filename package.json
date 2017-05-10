@@ -1,0 +1,25 @@
+{
+  "name": "bunyan-sysdig",
+  "version": "1.0.0",
+  "description": "Bunyan your errors into Sysdig",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groupby/bunyan-sysdig.git"
+  },
+  "keywords": [
+    "bunyan",
+    "sysdig",
+    "monitoring",
+    "errors"
+  ],
+  "author": "GroupBy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/groupby/bunyan-sysdig/issues"
+  },
+  "homepage": "https://github.com/groupby/bunyan-sysdig#readme"
+}
