@@ -13,9 +13,12 @@ const Stream = function (sdc, serviceName, threshold) {
 
   self.write = (data) => {
 
-    if (data.level >= self.thresholdLevel) {
-      sdc.increment(`${serviceName}.log.${data.level}`);
+    const logLevelNumeric = data.level;
+    if (logLevelNumeric >= self.thresholdLevel) {
+      const logIndex = (logLevelNumeric/10)-1;
+      sdc.increment(`${serviceName}.log.${logLevels[logIndex]}`);
     }
+
   };
 
   self.end = () => {};
