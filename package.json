@@ -8,7 +8,6 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "chai-spies": "^0.7.1",
     "codacy-coverage": "^2.0.0",
     "eslint-plugin-no-only-tests": "^1.1.0",
     "gb-license-check": "^1.0.1",
